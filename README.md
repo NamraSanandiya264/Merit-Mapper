@@ -1,1 +1,7 @@
-# Merit-Mapper
+# 📊 Merit Mapper
+
+**Merit Mapper** is a database-driven system designed to streamline the process of college admission mapping for students based on their merit, preferences, and category. The project models a real-world counseling system that manages student profiles, choices, helpdesk details, document submissions, and seat allocations in various colleges and branches. The system ensures structured storage, secure access, and efficient querying of large volumes of admission-related data.
+
+We created the system using core principles of **relational database design**, beginning with a well-defined ER diagram and converting it into a normalized schema that satisfies **BCNF (Boyce-Codd Normal Form)**. Every functional dependency was carefully analyzed and proven to ensure data integrity and minimal redundancy. The schema includes relations such as `Student`, `College`, `Branch`, `Document`, `Payment`, `Helpdesk`, `Choices`, and `Rounds`, each with clearly defined keys and dependencies.
+
+A notable feature of Merit Mapper is its comprehensive handling of **seat allotment based on student category and rank**, integrating support for SC, ST, and General categories. The system also tracks document uploads with constraints like file size and type, provides helpdesk mapping per student, and manages multiple admission rounds. This makes the project a powerful and scalable solution for real-world admission systems.
